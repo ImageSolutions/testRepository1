@@ -13,7 +13,7 @@ namespace testWebAplication
         {
             var a = new TextBox();
             a.Text = "prueba";
-            
+            a.ID = "idTest";
         }
     }
 }
