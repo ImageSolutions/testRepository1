@@ -11,7 +11,9 @@ namespace testWebAplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var a = "test";
+            var a = new TextBox();
+            a.Text = "prueba";
+            
         }
     }
 }
